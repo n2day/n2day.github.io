@@ -1,37 +1,53 @@
-## Welcome to GitHub Pages
+如何在github上面搭建个人网站
 
-You can use the [editor on GitHub](https://github.com/n2day/n2day.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+使用github pages服务搭建博客的好处有：
+全是静态文件，访问速度快；
+免费方便，不用花一分钱就可以搭建一个自由的个人博客，不需要服务器不需要后台；
+可以随意绑定自己的域名，不仔细看的话根本看不出来你的网站是基于github的；
+数据绝对安全，基于github的版本管理，想恢复到哪个历史版本都行；
+博客内容可以轻松打包、转移、发布到其它平台；
+等等；
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+本教程就先来个简单的吧，只是搭建一个单页面的网站。至于使用hexo来写博客那是后话了，有机会在出教程。
 
-### Markdown
+前期准备：
+只需要准备一个github账号，和你需要的单页面（html页面）
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+下面就是图文教程了，这么简单，一看就会啦。
 
-```markdown
-Syntax highlighted code block
+ 
+创建仓库
+新建一个名为你的用户名.github.io的仓库，比如说，如果你的github用户名是test，那么你就新建test.github.io的仓库（必须是你的用户名，其它名称无效），将来你的网站访问地址就是 https://test.github.io 了
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+创建成功之后，进入了项目主页面。点击设置按钮。
 
-1. Numbered
-2. List
+ 
+进入之后，滚动页面到下方。选择主题
 
-**Bold** and _Italic_ and `Code` text
+接着挑选一个自己的主题（随便就好，反正都是要换的），然后选择，最后确定更改。不懂的看图操作
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+ 
+然后回到项目。上传源码吧~
+ 
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/n2day/n2day.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+ 
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+完事~~~
+
+使用限制
+GitHub页面网站受以下使用限制：
+GitHub Pages源代码库的 推荐限制为1GB。
+发布的GitHub Pages网站可能不超过1 GB。
+GitHub的网页的网站有一个软每月100GB的带宽限制。
+GitHub Pages网站的软限制为每小时10个。
+
+最后访问地址就是 https://xxxx.github.io （就是你创建的repository name）
+如果有自己域名的，可以把域名指向过去
+阅读原文预览效果
+
+
+
